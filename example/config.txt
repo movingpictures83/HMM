@@ -1,0 +1,2 @@
+Prefix plugins/HMM/example
+Plugin HMM inputfile faithful.csv outputfile clusters.csv
