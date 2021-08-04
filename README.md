@@ -1,7 +1,7 @@
 # HMM
 # Language: R
-# Input: CSV (data)
-# Output: CSV (clusters)
+# Input: TXT (parameters)
+# Output: CSV (classification probabilities)
 # Tested with: PluMA 1.1, R 4.0.0
 # Dependency: HDclust_1.0.3
 
