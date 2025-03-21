@@ -6,7 +6,7 @@ input <- function(inputfile) {
 }   
 
 run <- function() {
-   Vb <- vb(1, dim=2, numst=1)
+   Vb <- vb(1, dim=ncol(dataX), numst=1)
 set.seed(12345)
 modelBIC <- hmmvbBIC(dataX, VbStructure=Vb)
 clust <<- hmmvbClust(faithful, bicObj=modelBIC)
